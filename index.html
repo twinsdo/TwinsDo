@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwinsDo Wireframes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #2E5BFF;
+        }
+        h2 {
+            color: #4CD964;
+            margin-top: 30px;
+        }
+        .wireframe-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .wireframe-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .wireframe-card:hover {
+            transform: translateY(-5px);
+        }
+        .wireframe-card h3 {
+            margin-top: 0;
+            color: #2E5BFF;
+        }
+        .wireframe-card p {
+            margin-bottom: 15px;
+        }
+        .wireframe-card a {
+            display: inline-block;
+            background-color: #4CD964;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .wireframe-card a:hover {
+            background-color: #3cb371;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TwinsDo Wireframes</h1>
+        <p>Visualização dos wireframes para o projeto TwinsDo, uma plataforma de auto-aprendizado baseada em Neural Mirroring Mechanism.</p>
+    </header>
+
+    <main>
+        <h2>Wireframes Disponíveis</h2>
+        <p>Abaixo estão os wireframes criados para as principais telas do TwinsDo. Cada wireframe inclui versões para desktop e mobile.</p>
+
+        <div class="wireframe-container">
+            <div class="wireframe-card">
+                <h3>Página Inicial (Homepage)</h3>
+                <p>Layout da página inicial com seções hero, recursos e estatísticas.</p>
+                <a href="homepage_wireframe.md">Ver Detalhes</a>
+            </div>
+
+            <div class="wireframe-card">
+                <h3>Criação de Avatar</h3>
+                <p>Formulário de múltiplas etapas para criação e personalização do avatar.</p>
+                <a href="avatar_creation_wireframe.md">Ver Detalhes</a>
+            </div>
+
+            <div class="wireframe-card">
+                <h3>Biblioteca de Conteúdo</h3>
+                <p>Grid de cards de conteúdo com filtros e barra de pesquisa.</p>
+                <a href="content_library_wireframe.md">Ver Detalhes</a>
+            </div>
+
+            <div class="wireframe-card">
+                <h3>Interface de Estudo</h3>
+                <p>Área de conteúdo e painel de Neural Mirroring para aprendizado.</p>
+                <a href="study_interface_wireframe.md">Ver Detalhes</a>
+            </div>
+
+            <div class="wireframe-card">
+                <h3>Marketplace</h3>
+                <p>Navegação por abas (B2C e B2B) com listagem de serviços e profissionais.</p>
+                <a href="marketplace_wireframe.md">Ver Detalhes</a>
+            </div>
+
+            <div class="wireframe-card">
+                <h3>Interface do Manus AI</h3>
+                <p>Formulário para geração de conteúdo e área de visualização.</p>
+                <a href="manus_ai_interface_wireframe.md">Ver Detalhes</a>
+            </div>
+        </div>
+
+        <h2>Próximos Passos</h2>
+        <p>Após a revisão e aprovação destes wireframes, o próximo passo será implementá-los no Bubble.io conforme detalhado no Guia de Configuração do Ambiente de Desenvolvimento.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TwinsDo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
