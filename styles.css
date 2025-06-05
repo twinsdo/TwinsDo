@@ -2,12 +2,12 @@
 :root {
   --primary-color: #00f2fe;
   --secondary-color: #4facfe;
-  --dark-bg: #ffffff;              /* fundo claro */
-  --darker-bg: #f7f7f7;            /* para header/footer/seções */
-  --text-color: #1a1a1a;           /* texto principal escuro */
-  --text-secondary: #444444;       /* texto secundário escuro suave */
+  --dark-bg: #ffffff;              /* fundo claro (substituindo o antigo #0f0f0f ou #121212) */
+  --darker-bg: #f7f7f7;            /* usado para seções como header/footer */
+  --text-color: #1a1a1a;           /* texto principal mais escuro para fundo claro */
+  --text-secondary: #444444;       /* tom mais suave para subtítulos/texto auxiliar */
   --border-color: rgba(0, 0, 0, 0.1);
-  --card-bg: rgba(255, 255, 255, 0.7);  /* fundo de cards leve */
+  --card-bg: rgba(255, 255, 255, 0.7);  /* leve fundo translúcido para cards */
   --transition: all 0.3s ease;
 }
 
